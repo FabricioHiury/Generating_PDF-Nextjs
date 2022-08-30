@@ -1,0 +1,16 @@
+[
+    {
+        "nome": "ENDEREÇO DO IMÓVEL",
+        "bairro": "BAIRRO",
+        "cpf": "CPF",
+        "iden": "IDENTIDADE",
+        "nasc": "NASCIMENTO",
+        "civil": "CIVIL",
+        "conjuje": "COMPANHEIRO",
+        "cpf_com": "CPF_COM",
+        "c_iden": "C. IDENTIDADE",
+        "c_data": "DATA COMPANHEIRO",
+        "doc_firm": "FIRMADO",
+        "herd": "HERDEIRO"
+    }
+] 
