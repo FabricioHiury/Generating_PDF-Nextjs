@@ -18,8 +18,8 @@ import GovernoBrasiliaFichaDescritiva from '../Images/GovernoBrasiliaFichaDescri
 import ImpressoraIcon from '../Icons/ImpressoraIcon.svg';
 
 //import { useSelector } from 'react-redux';
-/*import { getDadosFichaDescritiva } from '../../../Utils/ApiHelper';
-import { useAuth } from '../../../Hooks/useAuth';*/
+//import { getDadosFichaDescritiva } from '../../../Utils/ApiHelper';
+//import { useAuth } from '../../../Hooks/useAuth';
 import { useParams } from "react-router-dom";
 
 Font.register({
@@ -55,13 +55,13 @@ export default function EmitirFicha() {
 
   if (loading)
     return (
-      <HeaderButton variant="outlined" startIcon={<img src={ImpressoraIcon} />} disabled={true}>
+      <HeaderButton variant="outlined" disabled={true}>
         Carregando
       </HeaderButton>
     );
 
   if (erro) {
-    <HeaderButton variant="outlined" startIcon={<img src={ImpressoraIcon} />} disabled={true}>
+    <HeaderButton variant="outlined" disabled={true}>
       Erro ao gerar ficha
     </HeaderButton>;
   } 

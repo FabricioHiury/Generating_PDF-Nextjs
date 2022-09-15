@@ -1,3 +1,3 @@
-function HeaderButton() {
-    <img src={ImpressoraIcon}></img>
+export function HeaderButton() {
+    return `<img src={/Icons/ImpressoraIcon.svg}></img>`
 }
